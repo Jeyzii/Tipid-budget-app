@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / local tooling
+.cursor/
+.idea/
+*.code-workspace
+
+# Editor swap files
+*.swp
+*.swo
+
+# Stray env or logs at repo root (per-app .env files live under backend/ and frontend/)
+.env
+.env.*
+!.env.example
+*.log
